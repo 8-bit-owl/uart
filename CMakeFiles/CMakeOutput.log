@@ -1,0 +1,237 @@
+The system is: Linux - 3.10.0-1160.36.2.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/software/GCCcore/6.4.0/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/3.11.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_33ec1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_33ec1.dir/build.make CMakeFiles/cmTC_33ec1.dir/build
+gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33ec1.dir/testCCompiler.c.o
+/opt/software/GCCcore/6.4.0/bin/cc    -o CMakeFiles/cmTC_33ec1.dir/testCCompiler.c.o   -c /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_33ec1
+/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33ec1.dir/link.txt --verbose=1
+/opt/software/GCCcore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_33ec1.dir/testCCompiler.c.o  -o cmTC_33ec1 
+gmake[1]: Leaving directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4f048/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4f048.dir/build.make CMakeFiles/cmTC_4f048.dir/build
+gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o
+/opt/software/GCCcore/6.4.0/bin/cc    -o CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o   -c /opt/software/CMake/3.11.1-GCCcore-6.4.0/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4f048
+/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f048.dir/link.txt --verbose=1
+/opt/software/GCCcore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o  -o cmTC_4f048 
+Using built-in specs.
+COLLECT_GCC=/opt/software/GCCcore/6.4.0/bin/cc
+COLLECT_LTO_WRAPPER=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/software/GCCcore/6.4.0 --with-local-prefix=/opt/software/GCCcore/6.4.0 --enable-bootstrap --with-isl=/tmp/changc81/EASYBUILD/GCCcore/6.4.0/dummy-/gcc-6.4.0/stage2_stuff
+Thread model: posix
+gcc version 6.4.0 (GCC) 
+COMPILER_PATH=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64/:/opt/software/GCCcore/6.4.0/lib64/../lib64/:/opt/software/GCCcore/6.4.0/lib/../lib64/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/Java/1.8.0_152/lib/:/opt/software/Python/3.6.4-foss-2018a/lib/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/:/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib/:/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib/:/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib/:/opt/software/libreadline/7.0-GCCcore-6.4.0/lib/:/opt/software/ncurses/6.0-GCCcore-6.4.0/lib/:/opt/software/Boost/1.67.0-foss-2018a/lib/:/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib/:/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib/:/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib/:/opt/software/FFTW/3.3.7-gompi-2018a/lib/:/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib/:/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64/:/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64/:/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release/:/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib/:/opt/software/binutils/2.28-GCCcore-6.4.0/lib/:/opt/software/GCCcore/6.4.0/lib64/:/opt/software/GCCcore/6.4.0/lib/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4f048' '-mtune=generic' '-march=x86-64'
+ /opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1u6gbj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4f048 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64 -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64 -L/opt/software/GCCcore/6.4.0/lib64/../lib64 -L/opt/software/GCCcore/6.4.0/lib/../lib64 -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/Java/1.8.0_152/lib -L/opt/software/Python/3.6.4-foss-2018a/lib -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64 -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib -L/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib -L/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib -L/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib -L/opt/software/libreadline/7.0-GCCcore-6.4.0/lib -L/opt/software/ncurses/6.0-GCCcore-6.4.0/lib -L/opt/software/Boost/1.67.0-foss-2018a/lib -L/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib -L/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib -L/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib -L/opt/software/FFTW/3.3.7-gompi-2018a/lib -L/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib -L/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64 -L/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64 -L/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release -L/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib -L/opt/software/binutils/2.28-GCCcore-6.4.0/lib -L/opt/software/GCCcore/6.4.0/lib64 -L/opt/software/GCCcore/6.4.0/lib -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4f048' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4f048/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4f048.dir/build.make CMakeFiles/cmTC_4f048.dir/build]
+  ignore line: [gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/software/GCCcore/6.4.0/bin/cc    -o CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o   -c /opt/software/CMake/3.11.1-GCCcore-6.4.0/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4f048]
+  ignore line: [/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f048.dir/link.txt --verbose=1]
+  ignore line: [/opt/software/GCCcore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o  -o cmTC_4f048 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/software/GCCcore/6.4.0/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/software/GCCcore/6.4.0 --with-local-prefix=/opt/software/GCCcore/6.4.0 --enable-bootstrap --with-isl=/tmp/changc81/EASYBUILD/GCCcore/6.4.0/dummy-/gcc-6.4.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64/:/opt/software/GCCcore/6.4.0/lib64/../lib64/:/opt/software/GCCcore/6.4.0/lib/../lib64/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/Java/1.8.0_152/lib/:/opt/software/Python/3.6.4-foss-2018a/lib/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/:/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/:/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib/:/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib/:/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib/:/opt/software/libreadline/7.0-GCCcore-6.4.0/lib/:/opt/software/ncurses/6.0-GCCcore-6.4.0/lib/:/opt/software/Boost/1.67.0-foss-2018a/lib/:/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib/:/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib/:/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib/:/opt/software/FFTW/3.3.7-gompi-2018a/lib/:/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib/:/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64/:/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64/:/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release/:/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib/:/opt/software/binutils/2.28-GCCcore-6.4.0/lib/:/opt/software/GCCcore/6.4.0/lib64/:/opt/software/GCCcore/6.4.0/lib/:/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4f048' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1u6gbj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4f048 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64 -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64 -L/opt/software/GCCcore/6.4.0/lib64/../lib64 -L/opt/software/GCCcore/6.4.0/lib/../lib64 -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/Java/1.8.0_152/lib -L/opt/software/Python/3.6.4-foss-2018a/lib -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64 -L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib -L/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib -L/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib -L/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib -L/opt/software/libreadline/7.0-GCCcore-6.4.0/lib -L/opt/software/ncurses/6.0-GCCcore-6.4.0/lib -L/opt/software/Boost/1.67.0-foss-2018a/lib -L/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib -L/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib -L/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib -L/opt/software/FFTW/3.3.7-gompi-2018a/lib -L/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib -L/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64 -L/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64 -L/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release -L/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib -L/opt/software/binutils/2.28-GCCcore-6.4.0/lib -L/opt/software/GCCcore/6.4.0/lib64 -L/opt/software/GCCcore/6.4.0/lib -L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/software/GCCcore/6.4.0/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1u6gbj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4f048] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64] ==> dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64]
+    arg [-L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64] ==> dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64]
+    arg [-L/opt/software/GCCcore/6.4.0/lib64/../lib64] ==> dir [/opt/software/GCCcore/6.4.0/lib64/../lib64]
+    arg [-L/opt/software/GCCcore/6.4.0/lib/../lib64] ==> dir [/opt/software/GCCcore/6.4.0/lib/../lib64]
+    arg [-L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0] ==> dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0]
+    arg [-L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64] ==> dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/software/Java/1.8.0_152/lib] ==> dir [/opt/software/Java/1.8.0_152/lib]
+    arg [-L/opt/software/Python/3.6.4-foss-2018a/lib] ==> dir [/opt/software/Python/3.6.4-foss-2018a/lib]
+    arg [-L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64] ==> dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64]
+    arg [-L/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib] ==> dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib] ==> dir [/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib] ==> dir [/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib] ==> dir [/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/libreadline/7.0-GCCcore-6.4.0/lib] ==> dir [/opt/software/libreadline/7.0-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/ncurses/6.0-GCCcore-6.4.0/lib] ==> dir [/opt/software/ncurses/6.0-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/Boost/1.67.0-foss-2018a/lib] ==> dir [/opt/software/Boost/1.67.0-foss-2018a/lib]
+    arg [-L/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib] ==> dir [/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib] ==> dir [/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib] ==> dir [/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib]
+    arg [-L/opt/software/FFTW/3.3.7-gompi-2018a/lib] ==> dir [/opt/software/FFTW/3.3.7-gompi-2018a/lib]
+    arg [-L/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib] ==> dir [/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib]
+    arg [-L/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64] ==> dir [/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64]
+    arg [-L/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64] ==> dir [/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64]
+    arg [-L/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release] ==> dir [/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release]
+    arg [-L/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib] ==> dir [/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib]
+    arg [-L/opt/software/binutils/2.28-GCCcore-6.4.0/lib] ==> dir [/opt/software/binutils/2.28-GCCcore-6.4.0/lib]
+    arg [-L/opt/software/GCCcore/6.4.0/lib64] ==> dir [/opt/software/GCCcore/6.4.0/lib64]
+    arg [-L/opt/software/GCCcore/6.4.0/lib] ==> dir [/opt/software/GCCcore/6.4.0/lib]
+    arg [-L/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..]
+    arg [CMakeFiles/cmTC_4f048.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64/../lib64] ==> [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64]
+  collapse library dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib/../lib64] ==> [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib64/../lib64] ==> [/opt/software/GCCcore/6.4.0/lib64]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib/../lib64] ==> [/opt/software/GCCcore/6.4.0/lib64]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0] ==> [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64] ==> [/opt/software/GCCcore/6.4.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/software/Java/1.8.0_152/lib] ==> [/opt/software/Java/1.8.0_152/lib]
+  collapse library dir [/opt/software/Python/3.6.4-foss-2018a/lib] ==> [/opt/software/Python/3.6.4-foss-2018a/lib]
+  collapse library dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64] ==> [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64]
+  collapse library dir [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib] ==> [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib] ==> [/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib] ==> [/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib] ==> [/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/libreadline/7.0-GCCcore-6.4.0/lib] ==> [/opt/software/libreadline/7.0-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/ncurses/6.0-GCCcore-6.4.0/lib] ==> [/opt/software/ncurses/6.0-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/Boost/1.67.0-foss-2018a/lib] ==> [/opt/software/Boost/1.67.0-foss-2018a/lib]
+  collapse library dir [/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib] ==> [/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib] ==> [/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib] ==> [/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib]
+  collapse library dir [/opt/software/FFTW/3.3.7-gompi-2018a/lib] ==> [/opt/software/FFTW/3.3.7-gompi-2018a/lib]
+  collapse library dir [/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib] ==> [/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib]
+  collapse library dir [/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64] ==> [/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64]
+  collapse library dir [/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64] ==> [/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64]
+  collapse library dir [/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release] ==> [/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release]
+  collapse library dir [/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib] ==> [/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib]
+  collapse library dir [/opt/software/binutils/2.28-GCCcore-6.4.0/lib] ==> [/opt/software/binutils/2.28-GCCcore-6.4.0/lib]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib64] ==> [/opt/software/GCCcore/6.4.0/lib64]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib] ==> [/opt/software/GCCcore/6.4.0/lib]
+  collapse library dir [/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> [/opt/software/GCCcore/6.4.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib64;/opt/software/GCCcore/6.4.0/lib64;/opt/software/GCCcore/6.4.0/lib/gcc/x86_64-pc-linux-gnu/6.4.0;/lib64;/usr/lib64;/opt/software/Java/1.8.0_152/lib;/opt/software/Python/3.6.4-foss-2018a/lib;/opt/software/libffi/3.2.1-GCCcore-6.4.0/lib;/opt/software/GMP/6.1.2-GCCcore-6.4.0/lib;/opt/software/SQLite/3.21.0-GCCcore-6.4.0/lib;/opt/software/Tcl/8.6.8-GCCcore-6.4.0/lib;/opt/software/libreadline/7.0-GCCcore-6.4.0/lib;/opt/software/ncurses/6.0-GCCcore-6.4.0/lib;/opt/software/Boost/1.67.0-foss-2018a/lib;/opt/software/zlib/1.2.11-GCCcore-6.4.0/lib;/opt/software/bzip2/1.0.6-GCCcore-6.4.0/lib;/opt/software/ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20/lib;/opt/software/FFTW/3.3.7-gompi-2018a/lib;/opt/software/OpenBLAS/0.2.20-GCC-6.4.0-2.28/lib;/opt/software/imkl/2018.1.163-gompi-2018a/mkl/lib/intel64;/opt/software/imkl/2018.1.163-gompi-2018a/lib/intel64;/opt/software/tbb/2018_U3-GCCcore-6.4.0/build/linux_intel64_gcc_cc6.4.0_libc2.17_kernel3.10.0_release;/opt/software/OpenMPI/2.1.2-GCC-6.4.0-2.28/lib;/opt/software/binutils/2.28-GCCcore-6.4.0/lib;/opt/software/GCCcore/6.4.0/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cc095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cc095.dir/build.make CMakeFiles/cmTC_cc095.dir/build
+gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc095.dir/feature_tests.c.o
+/opt/software/GCCcore/6.4.0/bin/cc   -std=c11 -o CMakeFiles/cmTC_cc095.dir/feature_tests.c.o   -c /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cc095
+/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc095.dir/link.txt --verbose=1
+/opt/software/GCCcore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_cc095.dir/feature_tests.c.o  -o cmTC_cc095 
+gmake[1]: Leaving directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_64d87/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_64d87.dir/build.make CMakeFiles/cmTC_64d87.dir/build
+gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d87.dir/feature_tests.c.o
+/opt/software/GCCcore/6.4.0/bin/cc   -std=c99 -o CMakeFiles/cmTC_64d87.dir/feature_tests.c.o   -c /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/feature_tests.c
+Linking C executable cmTC_64d87
+/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64d87.dir/link.txt --verbose=1
+/opt/software/GCCcore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_64d87.dir/feature_tests.c.o  -o cmTC_64d87 
+gmake[1]: Leaving directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3f3bb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3f3bb.dir/build.make CMakeFiles/cmTC_3f3bb.dir/build
+gmake[1]: Entering directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f3bb.dir/feature_tests.c.o
+/opt/software/GCCcore/6.4.0/bin/cc   -std=c90 -o CMakeFiles/cmTC_3f3bb.dir/feature_tests.c.o   -c /mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3f3bb
+/opt/software/CMake/3.11.1-GCCcore-6.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f3bb.dir/link.txt --verbose=1
+/opt/software/GCCcore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_3f3bb.dir/feature_tests.c.o  -o cmTC_3f3bb 
+gmake[1]: Leaving directory `/mnt/ufs18/home-070/ganjaisa/c_workspace/uart/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

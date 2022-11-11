@@ -1,0 +1,19 @@
+
+
+SRC = ./src
+INCLUDES = -I "./inc"
+CFLAGS = -c -Wall 
+
+#target: test_uart.o uart.o  
+#	gcc test_uart.o uart.o -o target
+all: test_uart.o
+
+
+uart.o: 
+	gcc $(CFLAGS) $(INCLUDES) ${SRC}/uart.c 
+
+test_uart.o: uart.o
+	gcc $(CFLAGS) $(INCLUDES) ${SRC}/test_uart.c 
+
+clean:
+	rm *.o

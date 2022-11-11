@@ -1,0 +1,4 @@
+/mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/rebuild_cache.dir
+/mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/test_uart.dir
+/mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/edit_cache.dir
+/mnt/home/ganjaisa/c_workspace/uart/CMakeFiles/_uart.dir
