@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/test_uart.h
+
+../inc/uart.h
+
+/mnt/home/ganjaisa/c_workspace/uart/uart/src/test_uart.c
+stdio.h
+-
+uart.h
+/mnt/home/ganjaisa/c_workspace/uart/uart/src/uart.h
+string.h
+-
+assert.h
+-
+test_uart.h
+/mnt/home/ganjaisa/c_workspace/uart/uart/src/test_uart.h
+

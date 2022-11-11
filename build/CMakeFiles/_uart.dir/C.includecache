@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/uart.h
+
+/mnt/home/ganjaisa/c_workspace/uart/uart/src/uart.c
+uart.h
+/mnt/home/ganjaisa/c_workspace/uart/uart/src/uart.h
+
