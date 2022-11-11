@@ -1,0 +1,2 @@
+/opt/software/binutils/2.28-GCCcore-6.4.0/bin/ar qc lib_uart.a  CMakeFiles/_uart.dir/src/uart.c.o
+/opt/software/binutils/2.28-GCCcore-6.4.0/bin/ranlib lib_uart.a
