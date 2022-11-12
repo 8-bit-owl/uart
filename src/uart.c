@@ -1,5 +1,5 @@
 #include "uart.h"
-#define UART_BUFF_LEN 16
+
 
 
 volatile uint8_t received_flag;

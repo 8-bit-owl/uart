@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.5)   
 
 project(uart)
-set (CMAKE_BINARY_DIR "../build")
+set (CMAKE_BINARY_DIR "../")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "./build")
 #export (CC gcc)  
 
