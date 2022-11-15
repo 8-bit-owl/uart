@@ -19,7 +19,7 @@ This is a c file to test if our driver is working correctly. we will pass variou
 There is a `DEBUG` option in `test_uart.c` which enables debug in our code, which prints all the data in the test cases.
 
 ## Build System
-The project was built using CMake. Because there was a problem in the installed CMake in the virtual machine, The project was unable to make the full use of CMake. However, a shell script is present on top of CMake to move the executables and ensure the proper generation of executables.The build directory is not present in the repository but it can be generated using the command below.
+The project was built using CMake. The shell script absracts the CMake by running CMake commands as a part of `run.sh`, The shell script is present on top of CMake to move the executables and ensure the proper generation of executables.The build directory is not present in the repository but it can be generated using the command below.
 ```
 sh run.sh
 ```
@@ -28,4 +28,4 @@ sh run.sh
 ```
 test_uart
 ```
-This is the final executable and it is present at the root directory of this project. This repository can be cloned and the executable can be run. Ideally, it shouldnt be included and it should be a part of build directory. I just want to provide a convinient way to a user to have the executable without having a hassle of building the code and keeping the code weight low.
+This is the final executable and it is present at the root directory of this project. This repository can be cloned and the executable can be run. Ideally, it shouldnt be included and it should be a part of build directory. I just want to provide a convinient way to a user to have the executable without having a hassle of building the code and keeping the code footprint low.
