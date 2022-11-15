@@ -1,5 +1,4 @@
 #include "uart.h"
-#include <string.h>
 
 /*-------------------------------------*
 shared buffers between the test app and 

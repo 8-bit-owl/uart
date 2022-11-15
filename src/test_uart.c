@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "uart.h"
 #include <string.h>
-#include <assert.h>
+#include "uart.h"
 #include "test_uart.h"
 
 #define DEBUG 1
