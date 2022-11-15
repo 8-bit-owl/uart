@@ -36,11 +36,11 @@ uint8_t sequence_count(uint8_t *rx_buffer)
 /*-------------------------------------*
 Name: uart_isr(void)
 
-Returns: None
-
 Description:  when this isr is hit, it 
 copies the data into the 16byte shared 
 buffer.
+
+Returns: None
 *-------------------------------------*/
 void uart_isr(uint8_t *data)
 {
